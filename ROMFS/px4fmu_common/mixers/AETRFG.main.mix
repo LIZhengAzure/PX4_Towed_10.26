@@ -21,7 +21,7 @@ endpoints to suit.
 As there is only one output, if using two servos adjustments to compensate for
 differences between the servos must be made mechanically.  To obtain the correct
 motion using a Y  cable, the servos can be positioned reversed from one another.
-
+  lufoei changed 
 M: 1
 S: 0 0   10000   10000      0  -10000  10000
 
@@ -65,12 +65,13 @@ Flaps are controlled automatically in position control and auto
 but can also be controlled manually
 
 M: 1
-O:        5000  10000       0  -10000  10000
-S: 0 4   10000  10000       0  -10000  10000
+O:        10000  10000       0  -10000  10000
+S: 0 1   10000  10000       0  -10000  10000
 
-CH6: Landing gear mixer
+CH6: whell mixer
 ------------
 By default pass-through of gear switch
 
 M: 1
-S: 3 5    10000 10000       0  -10000  10000
+O:        6000  6000       0  -10000  10000
+S: 0 2    10000 10000       0  -10000  10000
